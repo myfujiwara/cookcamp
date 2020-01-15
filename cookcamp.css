@@ -1,0 +1,271 @@
+html{
+    background-color: #f5f5dd;
+}
+
+body{
+    margin: 0 auto;
+    overflow: scroll;
+    min-width: 960px;
+}
+
+#box{
+    background-color: white;
+    border-bottom: solid #cccccc 1px;
+}
+
+header{
+    display: block;
+    background-color: white;
+    color: #664433;
+    width: 960px;
+    margin: 0 auto;
+}
+
+form{
+    float: right;
+}
+
+header p{
+    margin: 0;
+}
+
+#menu {
+  margin: 0;
+  list-style-type: none;
+  width : 960px;
+  padding: 0;
+  display: flex;
+}
+
+#menu li{
+  width: 19%;
+  float: left;
+  text-align: center;
+  position: relative;
+  flex: 1 0 auto;
+}
+
+#menu li+ li{
+    border-left: 1px solid #cccccc;
+}
+
+#menu li a{
+    color: #664433;
+    padding: 10px 0;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+}
+
+form{
+    float: right;
+}
+
+#main{
+    text-align: center;
+}
+
+nav{
+    float: left;
+}
+
+#hako{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#recipe{
+    width: 150px;
+    background-color: white;
+    padding: 7px;
+    margin: 5px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+#recipe ul{
+    padding: 0;
+    margin: 5px;
+}
+
+#recipe li img{
+    position: relative;
+    bottom: -2px;
+    left: -6px;
+}
+
+#recipe li{
+    list-style-type: none;
+    padding: 7px;
+    height: 30px;
+}
+
+#recipe li+ li{
+    border-top: 1px dashed #cccccc;
+}
+
+#recipe a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+}
+
+#while{
+    border: 0.1px solid #f5f5dd;
+}
+
+article{
+    width: 600px;
+    float: left;
+    margin: 23px 0;
+}
+
+.contents{
+    float: left;
+    width: 580px;
+    background-color: white;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#new img {
+    display: block;
+    float: left;
+    padding: 10px 17px 0;
+}
+
+#new p{
+    padding: 0 17px;
+    float: left;
+    font-size: 10px;
+}
+
+#newa{
+    float: left;
+    font-size: 10px;
+    position: relative;
+    right: 7px;
+}
+
+#photo{
+    float: left;
+    padding: 10px 10px 90px;
+}
+
+#photok{
+    float: left;
+    padding: 10px;
+}
+
+#photoh{
+    float: left;
+    padding:  25px 10px 10px;
+}
+
+#setsumei{
+    width: 53%;
+    float: right;
+    margin: 8px 0;
+    font-size: 13px;
+    padding-right: 19px;
+}
+ 
+#setsumei p{
+    margin: 3px;
+    text-indent: 1em;
+}
+
+#icon {
+    float: right;
+}
+
+#icon img{
+    margin-right: 5px;
+    position: relative;
+    bottom: -2px;
+}
+
+#icon a{
+    color: #fc8833;
+    text-decoration: none;
+    margin: 20px;
+    position: relative;
+    top: -8px;
+}
+
+h3{
+    margin:  8px 2px;
+    background-color: #99bb22 ;
+    color: white;
+    border-radius: 30px
+}
+
+h3 img{
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+span{
+    position: relative;
+    top: -4px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+h4{
+    color: #664433;
+    margin: 1px 0 6px;
+}
+
+aside{
+    float: right;
+    width: 180px;
+    margin: 3px;
+}
+
+aside a{
+    padding: 7px;
+}
+
+footer p{
+    text-align: center;
+    clear: left;
+}
+
+#hakko{
+    background-color: white;
+    width: 100%;
+    float: right;
+    border-top: solid #cccccc 1px;
+}
+
+#sitemap{
+    width: 580px;
+    display: flex;
+    position: relative;
+    left: -30px;
+    margin: 0 auto;
+}
+
+#sitemap li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  list-style-type: none;
+  font-size: 12px;
+  flex: 1 0 auto;
+  padding-top: 10px;
+}
+
+#sitemap li a{
+  width: auto;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+#sitemap li+ li{
+    border-left: 1px solid #cccccc;
+}
